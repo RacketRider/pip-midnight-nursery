@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <g id="icon-delivery">
+    <!-- Soft Background Disc -->
+    <rect x="4" y="4" width="56" height="56" rx="16" fill="#FFF4E7" stroke="#81638E" stroke-width="2"/>
+    
+    <!-- Starlight flight trail arc -->
+    <path d="M12 48 C16 38 24 34 32 34" stroke="#FFE5A0" stroke-width="2.5" stroke-dasharray="3 3" stroke-linecap="round"/>
+    
+    <!-- Left Wing -->
+    <path d="M22 26 C15 22 13 32 20 34 Z" fill="#C9B6E7" stroke="#81638E" stroke-width="1.8"/>
+    <!-- Right Wing -->
+    <path d="M42 26 C49 22 51 32 44 34 Z" fill="#C9B6E7" stroke="#81638E" stroke-width="1.8"/>
+    
+    <!-- Dream Envelope Body -->
+    <rect x="18" y="26" width="28" height="20" rx="4" fill="#F5C9DC" stroke="#81638E" stroke-width="2"/>
+    <!-- Envelope Flap -->
+    <path d="M18 28 L32 38 L46 28" stroke="#81638E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Envelope Back Fold lines -->
+    <path d="M19 45 L28 37 M45 45 L36 37" stroke="#81638E" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Golden Star Wax Seal -->
+    <path d="M32 34 C32 36 30 37 28 37 C30 37 32 38 32 40 C32 38 34 37 36 37 C34 37 32 36 32 34 Z"
+          fill="#FFE5A0" stroke="#81638E" stroke-width="1"/>
+          
+    <!-- Sparkles -->
+    <circle cx="16" cy="18" r="2" fill="#FFE5A0"/>
+    <circle cx="48" cy="18" r="1.5" fill="#FFE5A0"/>
+  </g>
+</svg>

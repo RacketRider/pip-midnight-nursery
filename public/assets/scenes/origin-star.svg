@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" fill="none">
+  <defs>
+    <!-- Radial glow for primary star -->
+    <radialGradient id="star-glow-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE5A0" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#FFE5A0" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFE5A0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nursery-dome-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9B6E7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#25233F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- BACKGROUND LORE AMBIENCE -->
+  <rect width="800" height="500" rx="24" fill="#25233F"/>
+  <circle cx="400" cy="250" r="220" fill="url(#nursery-dome-glow)"/>
+
+  <!-- BEAT 2C: ANIMATABLE CONSTELLATION THREADS (Developer Hook: stroke-dashoffset) -->
+  <g id="constellation-threads" stroke="#FFE5A0" stroke-width="2" stroke-dasharray="6 6" stroke-linecap="round" opacity="0.85">
+    <!-- Star lines connecting nursery constellation nodes -->
+    <path d="M400 130 L260 210 L190 330 L320 380 L400 340 L480 380 L610 330 L540 210 Z"/>
+    <path d="M400 130 L400 340"/>
+    <path d="M260 210 L400 250 L540 210"/>
+    <path d="M320 380 L400 250 L480 380"/>
+  </g>
+
+  <!-- BEAT 2C: SECONDARY CONSTELLATION NODES (Developer Hook: opacity 0 -> 1) -->
+  <g id="constellation-secondary-stars">
+    <!-- Node: Little Ghost Nook -->
+    <g transform="translate(260, 210)">
+      <circle cx="0" cy="0" r="14" fill="#FFE5A0" fill-opacity="0.2"/>
+      <circle cx="0" cy="0" r="5" fill="#FFF4E7" stroke="#81638E" stroke-width="1.5"/>
+    </g>
+    <!-- Node: Lullaby Tower -->
+    <g transform="translate(190, 330)">
+      <circle cx="0" cy="0" r="10" fill="#F5C9DC" fill-opacity="0.25"/>
+      <circle cx="0" cy="0" r="4.5" fill="#F5C9DC" stroke="#81638E" stroke-width="1.5"/>
+    </g>
+    <!-- Node: Dream Shelf Left -->
+    <g transform="translate(320, 380)">
+      <circle cx="0" cy="0" r="10" fill="#FFE5A0" fill-opacity="0.2"/>
+      <circle cx="0" cy="0" r="4" fill="#FFE5A0" stroke="#81638E" stroke-width="1.5"/>
+    </g>
+    <!-- Node: Nursery Arch Keystone -->
+    <g transform="translate(400, 340)">
+      <circle cx="0" cy="0" r="12" fill="#C9B6E7" fill-opacity="0.3"/>
+      <circle cx="0" cy="0" r="5" fill="#C9B6E7" stroke="#81638E" stroke-width="1.5"/>
+    </g>
+    <!-- Node: Dream Shelf Right -->
+    <g transform="translate(480, 380)">
+      <circle cx="0" cy="0" r="10" fill="#FFE5A0" fill-opacity="0.2"/>
+      <circle cx="0" cy="0" r="4" fill="#FFE5A0" stroke="#81638E" stroke-width="1.5"/>
+    </g>
+    <!-- Node: CloudSlumber Spire -->
+    <g transform="translate(610, 330)">
+      <circle cx="0" cy="0" r="10" fill="#F5C9DC" fill-opacity="0.25"/>
+      <circle cx="0" cy="0" r="4.5" fill="#F5C9DC" stroke="#81638E" stroke-width="1.5"/>
+    </g>
+    <!-- Node: Starlight Burrow -->
+    <g transform="translate(540, 210)">
+      <circle cx="0" cy="0" r="14" fill="#FFE5A0" fill-opacity="0.2"/>
+      <circle cx="0" cy="0" r="5" fill="#FFF4E7" stroke="#81638E" stroke-width="1.5"/>
+    </g>
+    <!-- Node: Central Hearth -->
+    <g transform="translate(400, 250)">
+      <circle cx="0" cy="0" r="18" fill="#FFE5A0" fill-opacity="0.25"/>
+      <circle cx="0" cy="0" r="6" fill="#FFE5A0" stroke="#81638E" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- BEAT 2A & 2B: THE CORE STAR (The First Light invented by Pip) -->
+  <g id="origin-primary-star" transform="translate(400, 130)">
+    <!-- Radial Pulse Aura -->
+    <circle cx="0" cy="0" r="52" fill="url(#star-glow-grad)"/>
+    <circle cx="0" cy="0" r="28" fill="#FFE5A0" fill-opacity="0.4"/>
+    <!-- Eight-Point Star of Wonder -->
+    <path d="M0 -32 C0 -12 -12 0 -32 0 C-12 0 0 12 0 32 C0 12 12 0 32 0 C12 0 0 -12 0 -32 Z"
+          fill="#FFE5A0" stroke="#81638E" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Inner Core Cream Sparkle -->
+    <path d="M0 -18 C0 -7 -7 0 -18 0 C-7 0 0 7 0 18 C0 7 7 0 18 0 C7 0 0 -7 0 -18 Z"
+          fill="#FFF4E7" stroke="#81638E" stroke-width="1"/>
+    <circle cx="0" cy="0" r="4" fill="#FFF4E7"/>
+  </g>
+</svg>

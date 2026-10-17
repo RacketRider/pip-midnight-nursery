@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <g id="icon-lullaby">
+    <!-- Soft Background Disc -->
+    <rect x="4" y="4" width="56" height="56" rx="16" fill="#FFF4E7" stroke="#81638E" stroke-width="2"/>
+    
+    <!-- Music Box Base -->
+    <rect x="14" y="28" width="36" height="24" rx="6" fill="#F5C9DC" stroke="#81638E" stroke-width="2"/>
+    <!-- Box Lid Trim -->
+    <rect x="11" y="24" width="42" height="7" rx="3" fill="#C9B6E7" stroke="#81638E" stroke-width="2"/>
+    
+    <!-- Winding Key on Right -->
+    <path d="M50 40 L56 40" stroke="#81638E" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="58" cy="38" r="3" fill="#FFE5A0" stroke="#81638E" stroke-width="1.5"/>
+    <circle cx="58" cy="42" r="3" fill="#FFE5A0" stroke="#81638E" stroke-width="1.5"/>
+    
+    <!-- Little Carousel Unicorn/Star Stand on Top -->
+    <circle cx="32" cy="20" r="4.5" fill="#FFE5A0" stroke="#81638E" stroke-width="2"/>
+    <!-- Little Golden Musical Note floating up-right -->
+    <path d="M40 10 L40 16 A3 3 0 1 1 37 13 L37 8 L44 6 L44 11 Z" fill="#FFE5A0" stroke="#81638E" stroke-width="1.5" stroke-linejoin="round"/>
+    
+    <!-- Center Star Emblem on Front -->
+    <path d="M32 35 C32 38 30 40 27 40 C30 40 32 42 32 45 C32 42 34 40 37 40 C34 40 32 38 32 35 Z" fill="#FFE5A0" stroke="#81638E" stroke-width="1.2"/>
+  </g>
+</svg>
